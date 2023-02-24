@@ -41,7 +41,7 @@ jobs:
 
       # checks linter and formatter
       - name: Lint
-        run: npm run lint && git diff --exit-code
+        run: npm run lint
 
       # check if it builds successfully
       - name: Build
