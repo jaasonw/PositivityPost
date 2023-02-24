@@ -39,7 +39,7 @@ jobs:
       # - name: Svelte check
       #   run: npm run check
 
-      # checks linter
+      # checks linter and formatter
       - name: Lint
         run: npm run lint
 
