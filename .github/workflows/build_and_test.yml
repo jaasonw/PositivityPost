@@ -39,9 +39,13 @@ jobs:
       # - name: Svelte check
       #   run: npm run check
 
-      # checks linter and formatter
+      # checks linter
       - name: Lint
         run: npm run lint
+      
+      # checks format
+      - name: Format
+        run: npm run format && git diff --exit-code
 
       # check if it builds successfully
       - name: Build
