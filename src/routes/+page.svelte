@@ -101,7 +101,7 @@
     </section>
     <h2 class="text-2xl font-bold mt-10 mb-2">Show me only</h2>
     <section class="flex flex-col gap-1">
-      <ToggleSwitch bind:checked={positiveNews}>Positive News</ToggleSwitch>
+  <ToggleSwitch bind:checked={positiveNews}>Positive News</ToggleSwitch>
       <ToggleSwitch bind:checked={neutralNews}>Neutral News</ToggleSwitch>
       <ToggleSwitch bind:checked={negativeNews}>Negative News</ToggleSwitch>
       <!-- <h2 class="text-2xl font-bold mt-10 mb-2">Search</h2>
