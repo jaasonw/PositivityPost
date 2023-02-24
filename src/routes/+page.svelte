@@ -105,10 +105,10 @@
       <ToggleSwitch bind:checked={neutralNews}>Neutral News</ToggleSwitch>
       <ToggleSwitch bind:checked={negativeNews}>Negative News</ToggleSwitch>
       <!-- <h2 class="text-2xl font-bold mt-10 mb-2">Search</h2>
-    <input
-      class="w-full rounded-lg lg border border-gray-400 h-10 p-1"
-      bind:value={search}
-    /> -->
+      <input
+        class="w-full rounded-lg lg border border-gray-400 h-10 p-1"
+        bind:value={search}
+      /> -->
       <h2 class="text-2xl font-bold mt-10 mb-2">More Topics</h2>
       <TopicSelector start={11} length={25} {topics} bind:selectedTags />
     </section>
